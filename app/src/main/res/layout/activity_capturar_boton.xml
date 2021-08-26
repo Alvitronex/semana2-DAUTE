@@ -30,7 +30,7 @@ android:padding="100dp"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="number"
-        android:textColor="@color/black"/>
+        android:textColor="@color/white"/>
     <!--PARTE 2-->
     <TextView
         android:id="@+id/tv2"
