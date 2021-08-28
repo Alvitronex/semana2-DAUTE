@@ -106,22 +106,18 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
             return true;
         }
-        /*if (id == R.id.pantalla9) {
-            Intent intent = new Intent(MainActivity.this, ControlSpinner.class);
+        if (id == R.id.pantalla9) {
+            Intent intent = new Intent(MainActivity.this, SegundoActivity.class);
             startActivity(intent);
             return true;
         }
-        if (id == R.id.pantalla10) {
-            Intent intent = new Intent(MainActivity.this, ControlSpinner.class);
-            startActivity(intent);
-            return true;
-        }
+
         if (id == R.id.pantalla11) {
-            Intent intent = new Intent(MainActivity.this, ControlSpinner.class);
+            Intent intent = new Intent(MainActivity.this, SegundoActivityParametros.class);
             startActivity(intent);
             return true;
         }
-        if (id == R.id.pantalla12) {
+        /*if (id == R.id.pantalla12) {
             Intent intent = new Intent(MainActivity.this, ControlSpinner.class);
             startActivity(intent);
             return true;

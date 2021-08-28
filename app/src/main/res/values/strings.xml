@@ -9,6 +9,8 @@
     <string name="pantalla6">Control Imagen Button</string>
     <string name="pantalla7">Notificaciones</string>
     <string name="pantalla8">Control EdithText</string>
+    <string name="pantalla9">Segundo Activity</string>
+    <string name="pantalla10">Actividad con parametros</string>
 
 
     <string name="ejercicio1">Ejercicio 1</string>

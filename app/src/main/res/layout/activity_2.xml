@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finalizar"
+        android:onClick="finalizar"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="100dp"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="83dp" />
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="407dp"
+        android:layout_height="440dp"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
