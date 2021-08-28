@@ -16,6 +16,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Semana2DAUTE">
         <activity
+            android:name=".ControlEdithText"
+            android:exported="true" />
+        <activity
+            android:name=".Notificaciones"
+            android:exported="true" />
+        <activity
+            android:name=".ControlImagenButton"
+            android:exported="true" />
+        <activity
+            android:name=".ControlListView"
+            android:exported="true" />
+        <activity
             android:name=".ControlSpinner"
             android:exported="true" />
         <activity

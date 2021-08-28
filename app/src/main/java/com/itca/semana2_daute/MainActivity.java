@@ -87,11 +87,53 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         if (id == R.id.pantalla5) {
-
+            Intent intent = new Intent(MainActivity.this, ControlListView.class);
+            startActivity(intent);
             return true;
         }
+        if (id == R.id.pantalla6) {
+            Intent intent = new Intent(MainActivity.this, ControlImagenButton.class);
+            startActivity(intent);
+            return true;
+        }
+       if (id == R.id.pantalla7) {
+            Intent intent = new Intent(MainActivity.this, Notificaciones.class);
+            startActivity(intent);
+            return true;
+        }
+        if (id == R.id.pantalla8) {
+            Intent intent = new Intent(MainActivity.this, ControlEdithText.class);
+            startActivity(intent);
+            return true;
+        }
+        /*if (id == R.id.pantalla9) {
+            Intent intent = new Intent(MainActivity.this, ControlSpinner.class);
+            startActivity(intent);
+            return true;
+        }
+        if (id == R.id.pantalla10) {
+            Intent intent = new Intent(MainActivity.this, ControlSpinner.class);
+            startActivity(intent);
+            return true;
+        }
+        if (id == R.id.pantalla11) {
+            Intent intent = new Intent(MainActivity.this, ControlSpinner.class);
+            startActivity(intent);
+            return true;
+        }
+        if (id == R.id.pantalla12) {
+            Intent intent = new Intent(MainActivity.this, ControlSpinner.class);
+            startActivity(intent);
+            return true;
+        }
+        if (id == R.id.pantalla13) {
+            Intent intent = new Intent(MainActivity.this, ControlSpinner.class);
+            startActivity(intent);
+            return true;
+        }*/
         return super.onOptionsItemSelected(item);
     }
+
 
 
 

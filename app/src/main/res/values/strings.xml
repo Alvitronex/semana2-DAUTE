@@ -6,6 +6,10 @@
     <string name="pantalla3">Control Checkbox</string>
     <string name="pantalla4">Control Spinner</string>
     <string name="pantalla5">Control ListView</string>
+    <string name="pantalla6">Control Imagen Button</string>
+    <string name="pantalla7">Notificaciones</string>
+    <string name="pantalla8">Control EdithText</string>
+
 
     <string name="ejercicio1">Ejercicio 1</string>
 
